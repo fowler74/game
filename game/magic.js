@@ -6,12 +6,12 @@ function replay() {
 var lW = 60;
 // randomize where the "towers" will be located
 function random(min, max) {
-	var w = window.innerWidth;
+    var w = window.innerWidth;
     var lava = lW / w * 100;
     var num1 = Math.random() * (max - min) + min;
     // sets the width and left values for the 3 divs
-   	var num2 = 100 - (num1 + lava);
-		function style(a,b,c) {
+    var num2 = 100 - (num1 + lava);
+    function style(a,b,c) {
     	document.querySelector('#' + a).style.width = num1 + "%";
     	document.querySelector('#' + a).style.left = 0 + "%";
    		document.querySelector('#' + b).style.width = lava + "%";
