@@ -125,6 +125,5 @@ function gravity() {
 	}, 60); // sets gravity speed
 }
 
-
 random(15,85); // runs random function
 gravity(); // runs gravity function
