@@ -1,0 +1,18 @@
+body {margin:0; font-family: 'Open Sans', sans-serif;}
+.land {height:30vh; background:#00B0FF; position:absolute; bottom:0;}
+.ceiling {height:20vh; background:#00B0FF; position:absolute; top:0px;}
+#lava {height:48vh; background:#00B0FF; position:absolute; bottom:0;}
+#lava2 {height:38vh; background:#00B0FF; position:absolute; top:0;}
+.tunnel {width:100%; height:50vh; bottom:30vh; position:absolute; background:#fff; z-index:-1;}
+.player {width:20px; height:20px; border-radius:20px; background:grey; position:absolute; top:21px; left:50px; z-index:9999;}
+.score {display:none; position:absolute; width:100%; height:100%; text-align:center; margin:auto; background:rgba(0,0,0,.7);}
+.score h2 {font-size:50px; line-height:90vh; margin:0; color:#fff;}
+.replay {position:absolute; cursor:pointer; bottom:30vh; width:200px; height:35px; border-radius:35px; border:2px solid #fff; line-height:35px; color:#fff; font-size:20px; text-transform:uppercase; margin:auto; left:-999px; right:-999px;}
+.replay:hover {background:#00B0FF;}
+.count {position:absolute; width:100%; text-align:center; left:0; top:20vh; font-size:25px; color:#fff;}
+
+
+/* for later use */
+.blu {background:#00B0FF; position:absolute;}
+.top {height:20vh; top:0;}
+.bot {height:30vh; bottom:0;}
